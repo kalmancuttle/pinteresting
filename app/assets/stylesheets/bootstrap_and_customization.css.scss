@@ -2,5 +2,31 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+
+
+
 @import "bootstrap-sprockets";
+
+
+
+$navbar-default-brand-color: #384450;
+
+$navbar-default-bg:    #ecf0f1;
+
+$navbar-default-link-color: #1abc9c;
+
+$body-bg:    #bdc3c7;
+
+$jumbotron-padding:   90px;
+
+$jumbotron-bg:  #ffffff;
+
+$jumbotron-color:  #black;  
+
+$btn-primary-bg:   #1abc9c; 
+
+
+
+
+
 @import 'bootstrap';
