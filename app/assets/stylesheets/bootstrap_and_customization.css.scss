@@ -7,23 +7,35 @@
 
 @import "bootstrap-sprockets";
 
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
+$font-family-sans-serif:    'Lobster';
 
 $navbar-default-brand-color: #384450;
 
-$navbar-default-bg:    #ecf0f1;
+$navbar-default-bg:          #FFFFFF;
 
-$navbar-default-link-color: #1abc9c;
+$navbar-default-link-color:  #1abc9c;
 
-$body-bg:    #bdc3c7;
+$body-bg:                    #bdc3c7;
 
-$jumbotron-padding:   90px;
 
-$jumbotron-bg:  #ffffff;
+$carousel-inner-opacity:         0.1;
 
-$jumbotron-color:  #black;  
+$carousel-control-width:        10%;
 
-$btn-primary-bg:   #1abc9c; 
+
+$btn-primary-bg:            #1abc9c; 
+
+.center {
+	text-align: center;
+}
+
+
+.navbar-brand {
+	font-weight: bold;
+	align: center;
+}
 
 
 
