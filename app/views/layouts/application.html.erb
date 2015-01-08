@@ -8,10 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<hr><hr> 
+<!-- this hr is temporary fix for fixed navbar issues -->
+
 	<%= render 'layouts/header' %>
 	<div class="container">
 		<% flash.each do |name, msg| %> 
-		<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+		<%= content_tag(:div, msg, class: "alert alert-info") %>
 		<% end %>
 		<%= yield %>
 	</div>
