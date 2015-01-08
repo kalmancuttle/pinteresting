@@ -13,7 +13,7 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'carousel', '~> 1.1.2'
 gem 'font-awesome-sass'
-gem 'devise', '~> 3.1.0rc2'
+gem 'devise', '~> 3.4.0'
 
 
 

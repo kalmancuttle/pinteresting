@@ -77,8 +77,8 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-#Required for Heroku 
-#Note to set this to actual host (ex. www.kalman.io)
+  # Required for Heroku 
+  # Note to set this to actual host (ex. www.kalman.io)
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 
