@@ -35,13 +35,13 @@
       
        <li><%= link_to "Account Settings", edit_user_registration_path%> </li>
 
-      <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+        <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
 
-      <% else%>
+      <% else %>
 
        <li><%= link_to "Signin", new_user_session_path%></li>
        
-       <%end%>
+       <% end %>
 
       <!-- / we add this method :delete at the end to follow proper internet conventions for logging out a user from your app -->
       </ul>
